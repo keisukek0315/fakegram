@@ -13,6 +13,7 @@
 
   <script>
     const grid = document.querySelector('.grid')
+    for i = 0; i < 9; i++ { 
     fetch('https://dog.ceo/api/breeds/image/random')
   .then(response => response.json())
   .then(data => {
@@ -24,6 +25,7 @@
   .catch(error => {
     console.error('Error:', error);
   });
+}
   </script>
 </body>
 </html>
