@@ -39,6 +39,7 @@ html {
   }
   .grid {
     grid-template-columns: repeat(auto-fill, minmax(300px, 10px));
+    grid-gap: 5px;
   }
 }
 
