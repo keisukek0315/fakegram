@@ -38,8 +38,7 @@ html {
     padding: 0px;
   }
   .grid {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 10px));
-    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 5px));
   }
 }
 
