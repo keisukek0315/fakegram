@@ -35,9 +35,7 @@ html {
 /* メディアクエリによるレスポンシブデザイン */
 @media screen and (max-width: 600px) {
   .grid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 }
 
