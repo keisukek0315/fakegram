@@ -37,7 +37,7 @@ html {
   .grid {
     display: flex;
     flex-direction: column;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: center;
   }
 }
 
