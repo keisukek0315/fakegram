@@ -12,6 +12,7 @@
     .grid img {
       width: 100%;
       height: auto;
+      object-fit: cover;
     }
   </style>
 </head>
@@ -21,7 +22,7 @@
   <script>
     const grid = document.querySelector('.grid');
     
-    for (let i = 0; i < 9; i++) {
+    for (let i = 0; i < 30; i++) {
       fetch('https://dog.ceo/api/breeds/image/random')
         .then(response => response.json())
         .then(data => {
